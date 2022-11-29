@@ -63,9 +63,9 @@ for (let i in array) {
     }
  }
 
- // 6.
+ // 6. 
 
-// ინსტრუქციაში მასივი არარის.
+ // ინსტრუქციაში მასივი არარის.
 
 // 7.
 let isOdd = (n) => (n & 1) === 1
@@ -86,11 +86,5 @@ let users = [
     {username: 'levani', status: false},
     {username: 'anna', status: true}
 ]
-
-for (let i = 0; i < users.length; i++) {
-}
-
-// ???
-
-
+    console.log(users[2]['status']);
 
